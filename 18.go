@@ -1,6 +1,6 @@
 package main
 
-import main(
+import (
 	"fmt"
 	"strings"
 )
