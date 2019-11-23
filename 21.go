@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Trim("-Hello-World-","-"))
-	fmt.Println(strings.)
+	fmt.Println(strings.Trim("-Hello-World-", "-"))
+	fmt.Println(strings.Trim("+Hello World-", "+-"))
 }
