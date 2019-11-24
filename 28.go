@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	var p1 *interface
 	fmt.Println("p1 : ", p1 )
