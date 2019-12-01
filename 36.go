@@ -8,5 +8,5 @@ func main() {
 	n, e := fmt.Scanln(&name, &age)
 	fmt.Println("name ", name)
 	fmt.Println("age", age)
-
+	fmt.Println("number of items successfully scanned ", n)
 }
