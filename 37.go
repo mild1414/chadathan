@@ -9,4 +9,5 @@ func main() {
 	student_6 := "Yamcha"
 	student_7 := "Bluma"
 	student_8 := "Videl"
+	student_9 := "Oolong"
 }
