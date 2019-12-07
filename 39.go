@@ -1,3 +1,5 @@
 package main
 
-func main() {}
+func main() {
+	var numbers [10]int
+}
