@@ -10,4 +10,5 @@ func main() {
 	fmt.Println(x)
 
 	y := x[2:4]
+	fmt.Println(y)
 }
