@@ -19,4 +19,5 @@ func main() {
 		},
 	}
 	fmt.Println(numbers)
+	fmt.Println(numbers[1][2][0])
 }
