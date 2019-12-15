@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	humans := 
+	humans := []string{"Bulma", "Chi-Chi", "Videl"}
 }
