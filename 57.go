@@ -9,4 +9,5 @@ func main() {
 	fmt.Println(x)
 
 	y := map[string]int{"key1": 10, "key2": 20}
+	y["key3"] = 30
 }
