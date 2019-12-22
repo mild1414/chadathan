@@ -7,4 +7,5 @@ func main() {
 	b := a
 	fmt.Println(a, b)
 	a[0] = 10
+	fmt.Println(a, b)
 }
