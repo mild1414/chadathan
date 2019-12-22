@@ -1,3 +1,5 @@
 package main
 
-func main() {}
+func main() {
+	a := []int{1, 2, 3}
+}
