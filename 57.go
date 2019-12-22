@@ -6,4 +6,5 @@ func main() {
 	x := make(map[string]int)
 	fmt.Println(len(x))
 	x["key"] = 99
+	fmt.Println(x)
 }
