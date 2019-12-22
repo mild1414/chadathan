@@ -6,7 +6,9 @@ func main() {
 	elements["He"] = "Helium"
 	elements["Li"] = "Lithium"
 
-	h := elements["N"]
+	h := elements["H"]
 	fmt.Println(h)
+
+	n, found := elements["N"]
 	
 }
