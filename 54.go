@@ -10,4 +10,5 @@ func main() {
 	fmt.Println(a, b)
 	fmt.Println("________________")
 	c := []int{1, 2, 3}
+	d := make([]int, len(c))
 }
