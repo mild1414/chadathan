@@ -1,3 +1,6 @@
 package main
 
-func main() {}
+func main() {
+	a := [}string{"A", "B", "C", "D", "E"}
+
+}
