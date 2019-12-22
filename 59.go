@@ -11,5 +11,5 @@ func main() {
 
 	n, found := elements["N"]
 	fmt.Println(n)
-	
+	fmt.Println(found)
 }
