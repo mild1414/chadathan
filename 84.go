@@ -6,4 +6,5 @@ func subtract(number *int) {
 
 func main() {
 	z := 10
+	subtract(&x)
 }
