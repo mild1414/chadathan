@@ -18,5 +18,6 @@ func main() {
 	case 5:
 		fmt.Println("five")
 	default:
+		fmt.Println("unknow")
 	}
 }
