@@ -7,6 +7,7 @@ func main() {
 		if i%2 == 0 {
 			fmt.Println(i, "even")
 		} else {
+			fmt.Println(i, "odd")
 		}
 	}
 }
