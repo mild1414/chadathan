@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func sum(number ...int) int {
+func sum(numbers ...int) int {
 	total := 0
 	for _, n := range numbers {
 		total = total + n
