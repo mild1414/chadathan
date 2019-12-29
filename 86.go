@@ -1,3 +1,5 @@
 package main
 
-func say() {}
+func say() {
+	fmt.Prinln("Hi Goku")
+}
