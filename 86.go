@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func say() {
 	fmt.Prinln("Hi Goku")
 }
