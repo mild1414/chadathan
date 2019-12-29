@@ -7,5 +7,6 @@ func main() {
 	switch number {
 	case 0:
 		fmt.Println("zero")
+	case 1:
 	}
 }
