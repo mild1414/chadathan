@@ -4,4 +4,7 @@ func suntract(number int) {
 	number = number - 1
 }
 
-func main() {}
+func main() {
+	x := 10
+
+}
