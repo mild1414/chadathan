@@ -8,6 +8,6 @@ func suntract(number int) {
 
 func main() {
 	x := 10
-	subtract(&x)
+	subtract(x)
 	fmt.Println(x)
 }
