@@ -6,4 +6,6 @@ func say(greet string) func(string) string {
 	}
 }
 
-func main() {}
+func main() {
+	x := say("Hello")
+}
