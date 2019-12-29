@@ -13,5 +13,6 @@ func main() {
 		fmt.Println("two")
 	case 3:
 		fmt.Println("three")
+	case 4:
 	}
 }
