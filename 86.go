@@ -4,4 +4,6 @@ func say() {
 	fmt.Prinln("Hi Goku")
 }
 
-func main() {}
+func main() {
+	defer say()
+}
