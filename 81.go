@@ -8,4 +8,6 @@ func makeEven() func() int {
 	}
 }
 
-func main() {}
+func main() {
+	nextEven := makeEven()
+}
