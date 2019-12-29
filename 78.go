@@ -9,5 +9,5 @@ func writeLine(a ...interface{}) {
 }
 
 func main() {
-	writeLin(1, 3.14, "Hello", true)
+	writeLine(1, 3.14, "Hello", true)
 }
