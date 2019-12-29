@@ -10,4 +10,6 @@ func greet(name string) {
 	fmt.Println("Hello", name)
 }
 
-func main() {}
+func main() {
+	say()
+}
