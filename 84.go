@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func subtract(number *int) {
 	*number = *number - 1
 }
@@ -7,4 +9,5 @@ func subtract(number *int) {
 func main() {
 	z := 10
 	subtract(&x)
+	fmt.Println(x)
 }
