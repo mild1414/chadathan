@@ -7,5 +7,5 @@ func say() {
 }
 
 func greet(name string) {
-	fmt.Println
+	fmt.Println("Hello", name)
 }
