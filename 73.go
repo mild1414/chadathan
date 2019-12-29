@@ -8,5 +8,6 @@ ReadInput:
 	fmt.Println("type number :")
 	fmt.scan(&a)
 	if a < 20 {
+		goto ReadInput
 	}
 }
