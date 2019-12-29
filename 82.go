@@ -6,3 +6,7 @@ func factorial(number int) int {
 	}
 	return number * factorial(number-1)
 }
+
+func main() {
+
+}
