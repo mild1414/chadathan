@@ -5,5 +5,7 @@ func say() {
 }
 
 func main() {
-	defer say()
+	defer say(
+		fmt.Println("Hello World")
+	)
 }
