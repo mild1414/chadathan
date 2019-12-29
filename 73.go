@@ -6,4 +6,5 @@ func main() {
 	var a int
 ReadInput:
 	fmt.Println("type number :")
+	fmt.scan(&a)
 }
