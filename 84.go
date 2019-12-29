@@ -4,4 +4,6 @@ func subtract(number *int) {
 	*number = *number - 1
 }
 
-func main() {}
+func main() {
+	z := 10
+}
