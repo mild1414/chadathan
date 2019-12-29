@@ -8,5 +8,6 @@ func main() {
 	case 0:
 		fmt.Println("zero")
 	case 1:
+		fmt.Println("one")
 	}
 }
