@@ -7,3 +7,5 @@ func makeEven() func() int {
 		return even
 	}
 }
+
+func main() {}
