@@ -8,4 +8,5 @@ func main() {
 		break
 		fmt.Println("after")
 	}
+	fmt.Println("next statement")
 }
