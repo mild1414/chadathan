@@ -16,4 +16,5 @@ func main() {
 	x := compute(sum)
 	y := compute(subtract)
 	fmt.Println(x)
+	fmt.Println(y)
 }
