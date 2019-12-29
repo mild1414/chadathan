@@ -12,4 +12,5 @@ func main() {
 		return x - y
 	}
 	x := compute(sum)
+	y := compute(subtract)
 }
