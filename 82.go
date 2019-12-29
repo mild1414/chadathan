@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func factorial(number int) int {
 	if number == 0 {
 		return 1
@@ -9,4 +11,5 @@ func factorial(number int) int {
 
 func main() {
 	fac := factorial(5)
+	fmt.Println(fac)
 }
