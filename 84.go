@@ -7,7 +7,7 @@ func subtract(number *int) {
 }
 
 func main() {
-	z := 10
+	x := 10
 	subtract(&x)
 	fmt.Println(x)
 }
