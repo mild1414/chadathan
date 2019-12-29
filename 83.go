@@ -1,3 +1,5 @@
 package main
 
-func suntract(number int) {}
+func suntract(number int) {
+	number = number - 1
+}
