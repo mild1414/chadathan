@@ -11,5 +11,5 @@ func handlePanic() {
 }
 
 func main() {
-	defer
+	defer handlePanic()
 }
