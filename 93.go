@@ -6,4 +6,5 @@ func main() {
 	var studentEmail [10]string
 
 	studentName[10] = "Goku"
+	studentAge
 }
