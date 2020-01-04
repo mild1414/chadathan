@@ -7,5 +7,5 @@ type student struct {
 }
 
 func main() {
-	var
+	var std
 }
