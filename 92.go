@@ -5,6 +5,6 @@ import "fmt"
 func handlePanic() {
 	r := recover()
 	if r == "to much" {
-		fmt.Println("")
+		fmt.Println("your")
 	}
 }
