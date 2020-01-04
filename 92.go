@@ -15,5 +15,6 @@ func main() {
 	var i int
 	fmt.Println("type number :")
 	_, e := fmt.Scan(&i)
-	if 
+	if e != nill {
+	}
 }
