@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	var studentName [10]string
 	var studentAge [10]int
@@ -9,5 +11,5 @@ func main() {
 	studentAge[10] = 18
 	studentEmail[10] = "Goku@super.saiya"
 
-	fmt.
+	fmt.Println
 }
