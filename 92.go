@@ -18,5 +18,5 @@ func main() {
 	if e != nill {
 		panic("to much")
 	}
-	fmt.Println
+	fmt.Println("")
 }
