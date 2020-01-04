@@ -7,4 +7,4 @@ func handlePanic() {
 	fmt.Println(text)
 }
 
-func main()
+func main() {}
