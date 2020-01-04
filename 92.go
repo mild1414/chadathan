@@ -16,5 +16,6 @@ func main() {
 	fmt.Println("type number :")
 	_, e := fmt.Scan(&i)
 	if e != nill {
+		panic
 	}
 }
