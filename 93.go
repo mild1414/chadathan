@@ -11,5 +11,5 @@ func main() {
 	studentAge[10] = 18
 	studentEmail[10] = "Goku@super.saiya"
 
-	fmt.Println
+	fmt.Println(studentName[0])
 }
