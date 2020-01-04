@@ -7,5 +7,5 @@ func main() {
 
 	studentName[10] = "Goku"
 	studentAge[10] = 18
-	studentEmail[10]
+	studentEmail[10] = "Goku@super.saiya"
 }
