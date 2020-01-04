@@ -4,5 +4,5 @@ import "fmt"
 
 func handlePanic() {
 	text := recover()
-	fmt.Println
+	fmt.Println(text)
 }
