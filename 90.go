@@ -2,5 +2,5 @@ package main
 
 func main() {
 	panic("Hello panic")
-	text :=
+	text := recover()
 }
