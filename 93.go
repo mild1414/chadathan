@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	var studentName[10]
+	var studentName [10]string
 }
