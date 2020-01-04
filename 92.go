@@ -10,4 +10,6 @@ func handlePanic() {
 	}
 }
 
-func main() {}
+func main() {
+	defer
+}
