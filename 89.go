@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	panic("Hello")
+	panic("Hello panic")
 }
