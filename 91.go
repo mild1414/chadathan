@@ -1,3 +1,3 @@
 package main
 
-func handlePanic
+func handlePanic() {}
