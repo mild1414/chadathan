@@ -1,5 +1,5 @@
 package main
 
 func handlePanic() {
-	r  :=
+	r := recover
 }
