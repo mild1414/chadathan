@@ -10,4 +10,4 @@ func handlePanic() {
 	}
 }
 
-func
+func main() {}
