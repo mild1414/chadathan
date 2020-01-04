@@ -14,6 +14,5 @@ func main() {
 	defer handlePanic()
 	var i int
 	fmt.Println("type number :")
-	_, e := fmt.
+	_, e := fmt.Scan(&i)
 }
-
