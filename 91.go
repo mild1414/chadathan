@@ -1,6 +1,8 @@
 package main
 
+import "fmt"
+
 func handlePanic() {
 	text := recover()
-	fmt.
+	fmt.Println
 }
