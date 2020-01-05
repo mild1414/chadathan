@@ -11,4 +11,6 @@ func main() {
 	a.name = "Goku"
 	a.age = 18
 	a.email = "Goku@super.saiya"
+
+	b :=
 }
