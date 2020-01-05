@@ -9,5 +9,5 @@ type student struct {
 }
 
 func (std student) introduce() {
-	fmt.Println("Hello my")
+	fmt.Println("Hello my name is")
 }
