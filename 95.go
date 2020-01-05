@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type student struct {
 	name  string
 	age   int
@@ -18,5 +20,5 @@ func main() {
 
 	d := student{age: 20}
 
-	fmt.
+	fmt.Println(a)
 }
