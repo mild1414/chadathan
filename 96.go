@@ -1,3 +1,3 @@
 package main
 
-type student
+type student struct{}
