@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type student struct {
 	name  string
 	age   int
@@ -11,4 +13,6 @@ func main() {
 	p := &std
 	(*p).age = 18
 	p.email = "Goku@super.saiya"
+
+	fmt.Println(std)
 }
