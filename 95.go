@@ -15,4 +15,6 @@ func main() {
 	b := student{"Gohan", 3, "Gohan@super.saiya"}
 
 	c := student{name: "Videl", email: "Videl@daughter.satan"}
+
+	d :=
 }
