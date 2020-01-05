@@ -13,4 +13,6 @@ func main() {
 	a.email = "Goku@super.saiya"
 
 	b := student{"Gohan", 3, "Gohan@super.saiya"}
+
+	c := 
 }
