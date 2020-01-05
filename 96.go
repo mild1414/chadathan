@@ -1,5 +1,5 @@
 package main
 
 type student struct {
-	std := student{}
+	std := student{name:}
 }
