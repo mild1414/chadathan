@@ -12,5 +12,5 @@ func main() {
 	a.age = 18
 	a.email = "Goku@super.saiya"
 
-	b := student
+	b := student{""}
 }
