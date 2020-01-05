@@ -12,4 +12,4 @@ func (std student) introduce() {
 	fmt.Println("Hello my name is", std.name)
 }
 
-func
+func main() {}
