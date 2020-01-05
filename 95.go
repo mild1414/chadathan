@@ -16,5 +16,5 @@ func main() {
 
 	c := student{name: "Videl", email: "Videl@daughter.satan"}
 
-	d := student{}
+	d := student{age: 20}
 }
