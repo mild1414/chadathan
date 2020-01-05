@@ -7,5 +7,5 @@ type student struct {
 }
 
 func main() {
-	std := student{}
+	std := student{name: "Goku"}
 }
