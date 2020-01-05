@@ -13,5 +13,5 @@ func (std student) introduce() {
 }
 
 func main() {
-	std :=
+	std := student{}
 }
