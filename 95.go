@@ -10,5 +10,5 @@ func main() {
 	var a student
 	a.name = "Goku"
 	a.age = 18
-	a.email = 
+	a.email = "Goku@super.saiya"
 }
