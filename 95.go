@@ -14,5 +14,5 @@ func main() {
 
 	b := student{"Gohan", 3, "Gohan@super.saiya"}
 
-	c := 
+	c := student
 }
