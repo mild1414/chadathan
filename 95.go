@@ -8,5 +8,5 @@ type student struct {
 
 func main() {
 	var a student
-	a.name = 
+	a.name = "Goku"
 }
