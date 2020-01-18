@@ -2,4 +2,6 @@ package main
 
 type I interface{}
 
-func main() {}
+func main() {
+	var i I
+}
