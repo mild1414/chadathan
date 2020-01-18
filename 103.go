@@ -14,4 +14,6 @@ type T1 struct {
 	text string
 }
 
-func (t T1) F() {}
+func (t T1) F() {
+	fmt.Println(t.text)
+}
