@@ -17,4 +17,5 @@ func main() {
 	hello(3.14159265359)
 	hello(true)
 	hello("Goku")
+	hi("Gohan", false, 10, 10e15)
 }
