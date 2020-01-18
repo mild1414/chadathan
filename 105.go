@@ -12,3 +12,7 @@ func hi(t ...interface{}) {
 	}
 	fmt.Println()
 }
+
+func main() {
+	hello(3.14159265359)
+}
