@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type student struct {
 	name  string
 	age   int
@@ -13,4 +15,5 @@ func (std student) growUp(i int) {
 func main() {
 	var a student
 	a.age = 18
+	fmt.Println(a.age)
 }
