@@ -9,6 +9,6 @@ func (e myError) Error() string {
 }
 func say(word string) error {
 	if word == "hi" {
-		return myError{}
+		return myError{"can't say hi"}
 	}
 }
