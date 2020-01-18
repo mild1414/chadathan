@@ -10,4 +10,5 @@ func hi(t ...interface{}) {
 	for _, v := range t {
 		fmt.Printf("%T ,", v)
 	}
+	fmt.Println()
 }
