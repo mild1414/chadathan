@@ -17,4 +17,5 @@ func (t T) F() {
 func main() {
 	var i I
 	i = T{"Hello World"}
+	i.F()
 }
