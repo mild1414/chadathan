@@ -17,4 +17,6 @@ type pupil struct {
 	student
 }
 
-func main() {}
+func main() {
+	var pup pupil
+}
