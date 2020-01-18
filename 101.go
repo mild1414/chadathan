@@ -17,4 +17,5 @@ func main() {
 	a.age = 18
 	fmt.Println(a.age)
 	a.growUp(20)
+	fmt.Println(a.age)
 }
