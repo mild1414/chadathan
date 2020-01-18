@@ -1,3 +1,5 @@
 package main
 
-type I interface{}
+type I interface {
+	F()
+}
