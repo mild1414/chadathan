@@ -18,4 +18,6 @@ func (t T1) F() {
 	fmt.Println(t.text)
 }
 
-type T2 struct{}
+type T2 struct {
+	number int
+}
