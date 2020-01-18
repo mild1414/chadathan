@@ -9,4 +9,6 @@ func main() {
 	i = "Hello"
 	s, ok := i.(string)
 	fmt.Println(s, ok)
+
+	f, ok := i.(float64)
 }
