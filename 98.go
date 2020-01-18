@@ -6,6 +6,6 @@ type student struct {
 	email string
 }
 
-func main() {
+func (std student) {
 
 }
