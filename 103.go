@@ -10,4 +10,6 @@ func desc(i I) {
 	fmt.Println("%v, %T \n", i, i)
 }
 
-type T1 struct{}
+type T1 struct {
+	text string
+}
