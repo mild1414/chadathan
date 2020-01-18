@@ -22,4 +22,6 @@ type T2 struct {
 	number int
 }
 
-func (t T2) F() {}
+func (t T2) F() {
+	fmt.Println(t.number)
+}
