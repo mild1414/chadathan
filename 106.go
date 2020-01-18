@@ -11,4 +11,5 @@ func main() {
 	fmt.Println(s, ok)
 
 	f, ok := i.(float64)
+	fmt.Println(f, ok)
 }
