@@ -4,4 +4,4 @@ type myError struct {
 	error string
 }
 
-func (e myError)
+func (e myError) Error() string {}
