@@ -1,3 +1,5 @@
 package main
 
-type myError struct{}
+type myError struct {
+	error string
+}
