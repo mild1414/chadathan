@@ -18,5 +18,5 @@ type pupil struct {
 }
 
 func main() {
-	goku := student{}
+	goku := student{name: "Goku"}
 }
