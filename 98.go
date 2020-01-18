@@ -6,6 +6,6 @@ type student struct {
 	email string
 }
 
-func (std student) introduce{
+func (std student) introduce() {
 
 }
