@@ -26,4 +26,6 @@ func (t T2) F() {
 	fmt.Println(t.number)
 }
 
-func main() {}
+func main() {
+	i1 := T1{"Hello World"}
+}
