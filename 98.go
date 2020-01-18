@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type student struct {
 	name  string
 	age   int
@@ -7,5 +9,6 @@ type student struct {
 }
 
 func (std student) introduce() {
+	fmt.Println()
 
 }
