@@ -8,4 +8,6 @@ func desc(i I) {
 	fmt.Printf("%v ,%T \n", i, i)
 }
 
-func main() {}
+func main() {
+	var i I
+}
