@@ -17,4 +17,6 @@ type pupil struct {
 	std     student
 }
 
-func main() {}
+func main() {
+	goku := student{}
+}
