@@ -11,4 +11,5 @@ func say(word string) error {
 	if word == "hi" {
 		return myError{"can't say hi"}
 	}
+	return nil
 }
