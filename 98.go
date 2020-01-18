@@ -20,4 +20,5 @@ type pupil struct {
 func main() {
 	goku := student{name: "Goku"}
 	pup := pupil{std: goku}
+	pup.std.introduce()
 }
