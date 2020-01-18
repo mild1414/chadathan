@@ -13,4 +13,5 @@ func main() {
 	i = 3.14159265359
 	desc(i)
 	i = "Hello World"
+	desc(i)
 }
