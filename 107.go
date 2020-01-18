@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type myError struct {
 	error string
 }
@@ -15,4 +17,5 @@ func say(word string) error {
 }
 func main() {
 	e1 := say("hello")
+	fmt.Println(e1)
 }
