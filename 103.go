@@ -25,3 +25,5 @@ type T2 struct {
 func (t T2) F() {
 	fmt.Println(t.number)
 }
+
+func main() {}
