@@ -8,5 +8,6 @@ func hello(t interface{}) {
 func hi(t ...interface{}) {
 	fmt.Print("Hi")
 	for _, v := range t {
+		fmt.Printf("%T ,", v)
 	}
 }
