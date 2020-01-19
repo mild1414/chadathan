@@ -15,5 +15,5 @@ func say(tet string, sleep time.Duration, wg *sync.WaitGroup) {
 func main() {
 	var wg sync.WaitGroup
 	wg.Add(2)
-	go say()
+	go say("Hello")
 }
