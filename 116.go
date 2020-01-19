@@ -13,5 +13,5 @@ func say(tet string, sleep time.Duration, wg *sync.WaitGroup) {
 }
 
 func main() {
-	var wg
+	var wg sync.WaitGroup
 }
