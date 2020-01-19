@@ -1,5 +1,8 @@
 package main
 
-import "time"
+import (
+	"sync"
+	"time"
+)
 
-func say(txt string, sleep time.Duration, wg *sync.)
+func say(txt string, sleep time.Duration, wg *sync.WaitGroup) {}
