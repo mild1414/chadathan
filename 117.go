@@ -1,3 +1,5 @@
 package main
 
-func say(txt string, sleep  time.)
+import "time"
+
+func say(txt string, sleep time.Duration)
