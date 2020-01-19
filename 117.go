@@ -7,5 +7,5 @@ import (
 )
 
 func say(txt string, sleep time.Duration, wg *sync.WaitGroup) {
-	fmt.Println()
+	fmt.Println(txt)
 }
