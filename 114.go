@@ -12,5 +12,5 @@ func say(text string) {
 	}
 }
 func main() {
-	go say()
+	go say("Hello")
 }
