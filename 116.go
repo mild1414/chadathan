@@ -1,3 +1,5 @@
 package main
 
-func say(tet string)
+import "time"
+
+func say(tet string, sleep time.Duration)
