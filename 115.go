@@ -5,5 +5,7 @@ func main() {
 	go func() {
 		data = 20
 	}()
-	go func(){}
+	go func(){
+		fmt.Println(data)
+	}
 }
