@@ -15,5 +15,5 @@ func main() {
 	go say("Hello")
 	go say("Hi")
 	var input string
-	fmt.Println()
+	fmt.Println(&input)
 }
