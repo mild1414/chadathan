@@ -9,3 +9,5 @@ func say(text string) {
 		fmt.Println(i, ":", text)
 	}
 }
+
+func main() {}
