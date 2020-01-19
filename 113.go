@@ -10,4 +10,6 @@ func say(text string) {
 	}
 }
 
-func main() {}
+func main() {
+	go say("Hello")
+}
