@@ -7,6 +7,6 @@ import (
 
 func say(text string) {
 	for i := 0; i < 3; i++ {
-		fmt.Println(time.Now())
+		fmt.Println(time.Now(), ":", i)
 	}
 }
