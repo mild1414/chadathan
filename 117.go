@@ -1,3 +1,3 @@
 package main
 
-func say(txt)
+func say(txt string)
