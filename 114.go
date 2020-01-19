@@ -1,5 +1,5 @@
 package main
 
 func say(text string) {
-	for
+	for i := 0;
 }
