@@ -1,3 +1,3 @@
 package myMath
 
-func Average()
+func Average(numbers ...float64)
