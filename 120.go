@@ -29,4 +29,6 @@ func main() {
 	for i := 0; i < 5; i++ {
 		go increment(&data, &rwmutex, &wg)
 	}
+	for i := 0; i < 5; i++ {
+	}
 }
