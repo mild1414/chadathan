@@ -1,3 +1,3 @@
 package main
 
-func increment()
+func increment(data *int)
