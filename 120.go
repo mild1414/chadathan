@@ -1,7 +1,10 @@
 package main
 
-import "sync"
+import (
+	"sync"
+	"time"
+)
 
 func increment(data *int, rwmutex *sync.RWMutex, wg *sync.WaitGroup) {
-	start
+	start := time.Now()
 }
