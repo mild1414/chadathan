@@ -18,5 +18,5 @@ func read(data *int, mutex *sync.Mutex, wg *sync.WaitGroup){
 	defer wg.Done()
 	defer mutex.Unlock()
 	mutex.Lock()
-	fmt.Println(time.Sinc(start), "Data =")
+	fmt.Println(time.Sinc(start), "Data =", *data)
 }
