@@ -26,4 +26,5 @@ func main() {
 	var wg sync.WaitGroup
 	data := 10
 	wg.Add(10)
+	for i := 0
 }
