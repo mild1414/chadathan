@@ -24,4 +24,5 @@ func read(data *int, rwmutex *sync.RWMutex, wg *sync.WaitGroup) {
 func main() {
 	var rwmutex sync.RWMutex
 	var wg sync.WaitGroup
+	data := 10
 }
