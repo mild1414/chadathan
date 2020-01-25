@@ -12,5 +12,5 @@ func increment(data *int, rwmutex *sync.RWMutex, wg *sync.WaitGroup) {
 	defer rwmutex.Unlock()
 	rwmutex.Lock()
 	*data++
-	fmt.Println(time.Since(start))
+	fmt.Println(time.Since(start), "Increment to:", *data)
 }
