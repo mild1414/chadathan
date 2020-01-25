@@ -27,9 +27,9 @@ func main(){
 	wg.Add(10)
 
 	for i := 0; i < 5; i++ {
-		go increment(&data,&mutex,&wg)
+		go increment(&data, &mutex, &wg)
 	}
 	for i := 0; i <5; i++ {
-		go read()
+		go read(&data, &mutex, &wg)
 	}
 }
