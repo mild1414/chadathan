@@ -20,4 +20,6 @@ func read(data *int, mutex *sync.Mutex, wg *sync.WaitGroup){
 	mutex.Lock()
 	fmt.Println(time.Sinc(start), "Data =", *data)
 }
-func main(){}
+func main(){
+	var mutex sync.Mutex
+}
