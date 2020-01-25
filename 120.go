@@ -32,4 +32,5 @@ func main() {
 	for i := 0; i < 5; i++ {
 		go read(&data, &rwmutex, &wg)
 	}
+	wg.Wait()
 }
