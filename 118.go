@@ -16,5 +16,5 @@ func increment(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 func read(data *int, mutex *sync.Mutex, wg *sync.WaitGroup){
 	start := time.Now()
 	defer wg.Done()
-	defer 
+	defer mutex.Unlock()
 }
