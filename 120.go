@@ -19,4 +19,5 @@ func read(data *int, rwmutex *sync.RWMutex, wg *sync.WaitGroup) {
 	defer wg.Done()
 	defer rwmutex.RUnlock()
 	rwmutex.RLock()
+	fmt.Println()
 }
