@@ -29,5 +29,7 @@ func main(){
 	for i := 0; i < 5; i++ {
 		go increment(&data,&mutex,&wg)
 	}
-	for i := 0; i <5; i++ {}
+	for i := 0; i <5; i++ {
+		go read()
+	}
 }
