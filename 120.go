@@ -14,3 +14,4 @@ func increment(data *int, rwmutex *sync.RWMutex, wg *sync.WaitGroup) {
 	*data++
 	fmt.Println(time.Since(start), "Increment to:", *data)
 }
+func read(data *int)
