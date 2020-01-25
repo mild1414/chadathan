@@ -12,5 +12,5 @@ func increment(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 	//defer mutex.Unlock()
 	//mutex.Lock()
 	*data++
-	fmt.Println(time.Since())
+	fmt.Println(time.Since(start))
 }
