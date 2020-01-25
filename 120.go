@@ -1,3 +1,5 @@
 package main
 
-func increment(data *int, rwmutex)
+import "sync"
+
+func increment(data *int, rwmutex *sync.RWMutex)
