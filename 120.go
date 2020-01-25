@@ -30,5 +30,6 @@ func main() {
 		go increment(&data, &rwmutex, &wg)
 	}
 	for i := 0; i < 5; i++ {
+		go read(&data, &rwmutex, &wg)
 	}
 }
