@@ -21,3 +21,4 @@ func read(data *int, rwmutex *sync.RWMutex, wg *sync.WaitGroup) {
 	rwmutex.RLock()
 	fmt.Println(time.Since(start), "Data =", *data)
 }
+func main() {}
