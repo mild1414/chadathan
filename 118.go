@@ -10,4 +10,5 @@ func increment(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 	defer wg.Done()
 	default mutex.Unlock()
 	mutex.Lock()
+	*data+++
 }
