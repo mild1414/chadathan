@@ -1,3 +1,5 @@
 package main
 
-func increment(data *int)
+import "sync"
+
+func increment(data *int, mutex *sync.Mutex)
