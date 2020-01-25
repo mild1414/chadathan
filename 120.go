@@ -16,4 +16,5 @@ func increment(data *int, rwmutex *sync.RWMutex, wg *sync.WaitGroup) {
 }
 func read(data *int, rwmutex *sync.RWMutex, wg *sync.WaitGroup) {
 	start := time.Now()
+	defer wg.Done()
 }
