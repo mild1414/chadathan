@@ -18,4 +18,5 @@ func read(data *int, rwmutex *sync.RWMutex, wg *sync.WaitGroup) {
 	start := time.Now()
 	defer wg.Done()
 	defer rwmutex.RUnlock()
+	rwmutex.RLock()
 }
