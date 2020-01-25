@@ -25,4 +25,5 @@ func main() {
 	var rwmutex sync.RWMutex
 	var wg sync.WaitGroup
 	data := 10
+	wg.Add(10)
 }
