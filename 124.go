@@ -5,4 +5,5 @@ func sum(c chan int, number ...int) {
 	for _, v := range number {
 		sum = sum + v
 	}
+	c <- sum
 }
