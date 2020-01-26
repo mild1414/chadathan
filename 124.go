@@ -1,3 +1,5 @@
 package main
 
-func sum(c chan int, number ...int)
+func sum(c chan int, number ...int) {
+	sum := 0
+}
