@@ -10,4 +10,6 @@ func receive1(c <-chan string) {
 	fmt.Println(<-c)
 }
 
-func send2(c chan<- string)
+func send2(c chan<- string) {
+	c <- "Hello"
+}
