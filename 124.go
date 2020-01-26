@@ -24,4 +24,5 @@ func main() {
 	c2 := make(chan int)
 	go printer(c1, c2)
 	go sum(c1, 1, 2, 3)
+	go sum(c2, 10, 11)
 }
