@@ -27,5 +27,5 @@ func main() {
 	go sum(c2, 10, 11)
 
 	var input string
-
+	fmt.Scan(&input)
 }
