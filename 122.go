@@ -14,3 +14,5 @@ func printer(c chan int) {
 	number := <-c
 	fmt.Println(number)
 }
+
+func main() {}
