@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func sum(c chan int, number ...int) {
 	sum := 0
 	for _, v := range number {
@@ -8,4 +10,7 @@ func sum(c chan int, number ...int) {
 	c <- sum
 }
 
-func printer(c chan int) {}
+func printer(c chan int) {
+	number := <-c
+	fmt.Println(number)
+}
