@@ -18,3 +18,5 @@ func printer(c1, c2 chan int) {
 		fmt.Println("channal-2 :", num2)
 	}
 }
+
+func main() {}
