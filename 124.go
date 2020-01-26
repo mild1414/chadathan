@@ -21,4 +21,5 @@ func printer(c1, c2 chan int) {
 
 func main() {
 	c1 := make(chan int)
+	c2 := make(chan int)
 }
