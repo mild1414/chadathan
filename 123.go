@@ -13,3 +13,5 @@ func receive1(c <-chan string) {
 func send2(c chan<- string) {
 	c <- "Hello"
 }
+
+func receive2(c chan<- string) {}
