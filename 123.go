@@ -14,4 +14,6 @@ func send2(c chan<- string) {
 	c <- "Hello"
 }
 
-func receive2(c chan<- string) {}
+func receive2(c chan<- string) {
+	fmt.Println(<-c)
+}
