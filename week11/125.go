@@ -10,6 +10,7 @@ func println(tick, boom <-chan time.Time) {
 		select {
 		case <-tick:
 			fmt.Println("tick.")
+		case <-boom:
 		}
 	}
 }
