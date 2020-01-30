@@ -19,3 +19,5 @@ func println(tick, boom <-chan time.Time) {
 		}
 	}
 }
+
+func main() {}
