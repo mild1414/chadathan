@@ -12,6 +12,8 @@ func println(tick, boom <-chan time.Time) {
 			fmt.Println("tick.")
 		case <-boom:
 			fmt.Println("BOOM!")
+			return
+		default:
 		}
 	}
 }
