@@ -21,5 +21,5 @@ func println(tick, boom <-chan time.Time) {
 }
 
 func main() {
-	tick := time.Tick()
+	tick := time.Tick(100 * time.Millisecond)
 }
