@@ -4,6 +4,8 @@ import "time"
 
 func println(tick, boom <-chan time.Time) {
 	for {
-		select {}
+		select {
+		case <-tick:
+		}
 	}
 }
