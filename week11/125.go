@@ -14,6 +14,7 @@ func println(tick, boom <-chan time.Time) {
 			fmt.Println("BOOM!")
 			return
 		default:
+			fmt.Println("	.")
 		}
 	}
 }
