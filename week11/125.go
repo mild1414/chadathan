@@ -20,4 +20,6 @@ func println(tick, boom <-chan time.Time) {
 	}
 }
 
-func main() {}
+func main() {
+	tick := time.Tick()
+}
