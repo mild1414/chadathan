@@ -7,4 +7,5 @@ func main() {
 	if err != nill {
 		return
 	}
+	str := string(bs)
 }
