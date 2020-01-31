@@ -8,4 +8,6 @@ func main() {
 		return
 	}
 	defer file.Close()
+
+	file.WriteString("Hello \n")
 }
