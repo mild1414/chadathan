@@ -12,4 +12,6 @@ func main() {
 		return
 	}
 	defer file.Close()
+
+	stat, err := file.Stat()
 }
