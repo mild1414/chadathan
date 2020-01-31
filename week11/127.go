@@ -7,4 +7,5 @@ func main() {
 	ch <- "Hello"
 	ch <- "Hi"
 	fmt.Println(<-ch)
+	fmt.Println(<-ch)
 }
