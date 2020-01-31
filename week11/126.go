@@ -8,3 +8,4 @@ func generateInt(min, max int, ch chan int, wg *sync.WaitGroup) {
 		ch <- i
 	}
 }
+func main() {}
