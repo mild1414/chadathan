@@ -1,3 +1,7 @@
 package main
 
-func main() {}
+import "strings"
+
+func main() {
+	reader := strings.NewReader("HelloWorld")
+}
