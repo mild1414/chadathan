@@ -11,4 +11,5 @@ func generateInt(min, max int, ch chan int, wg *sync.WaitGroup) {
 func main() {
 	ch := make(chan int)
 	var wg sync.WaitGroup
+	wg.Add(2)
 }
