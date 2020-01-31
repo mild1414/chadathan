@@ -21,4 +21,5 @@ func main() {
 
 	fileSize := stat.Size()
 	p := make([}byte, fileSize)
+	file.Read(p)
 }
