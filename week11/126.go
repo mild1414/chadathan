@@ -20,5 +20,6 @@ func main() {
 	}()
 	sum := 0
 	for i := range ch {
+		sum += i
 	}
 }
