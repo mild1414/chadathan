@@ -12,4 +12,5 @@ func main() {
 	ch := make(chan int)
 	var wg sync.WaitGroup
 	wg.Add(2)
+	go generateInt(10, 20, ch, &wg)
 }
