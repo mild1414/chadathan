@@ -9,5 +9,6 @@ func main() {
 	file, err := os.Open("test.txt")
 	if err != nill {
 		fmt.Println(err)
+		return
 	}
 }
