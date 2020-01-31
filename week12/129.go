@@ -20,5 +20,5 @@ func main() {
 	}
 
 	fileSize := stat.Size()
-	p := make([byte, fileSize])
+	p := make([}byte, fileSize)
 }
