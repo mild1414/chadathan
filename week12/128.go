@@ -11,6 +11,8 @@ func main() {
 	for {
 		n, err := reader.read(p)
 		if err == io.EOF {
+			break
 		}
+
 	}
 }
