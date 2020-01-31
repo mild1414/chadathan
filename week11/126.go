@@ -16,5 +16,6 @@ func main() {
 	go generateInt(50, 200, ch, &wg)
 	go func(){
 		wg.Wait()
+		close(ch)
 	}
 }
