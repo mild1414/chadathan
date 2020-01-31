@@ -14,5 +14,7 @@ func main() {
 	wg.Add(2)
 	go generateInt(10, 20, ch, &wg)
 	go generateInt(50, 200, ch, &wg)
-	go func(){}
+	go func(){
+		wg.Wait()
+	}
 }
