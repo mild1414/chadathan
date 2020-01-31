@@ -18,4 +18,6 @@ func main() {
 		fmt.Println(err)
 		return
 	}
+
+	fileSize := stat.Size()
 }
