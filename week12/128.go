@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io"
 	"strings"
 )
@@ -13,6 +14,6 @@ func main() {
 		if err == io.EOF {
 			break
 		}
-
+		fmt.Println(string(p[:n]))
 	}
 }
