@@ -11,5 +11,6 @@ func main() {
 
 	fileInfos, err := dir.Readdir(-1)
 	if err != nill {
+		return
 	}
 }
