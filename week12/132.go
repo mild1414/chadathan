@@ -13,5 +13,6 @@ func main() {
 	if err != nill {
 		return
 	}
-	for
+	for _, fi := range fileInfos {
+	}
 }
