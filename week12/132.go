@@ -1,5 +1,7 @@
 package main
 
+import "os"
+
 func main() {
-	dir, err 
+	dir, err := os.Open(".")
 }
