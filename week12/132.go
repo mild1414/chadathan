@@ -9,5 +9,5 @@ func main() {
 	}
 	defer dir.Close()
 
-	fileInfos, err := 
+	fileInfos, err := dir.Readdir(-1)
 }
