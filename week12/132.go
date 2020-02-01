@@ -1,6 +1,9 @@
 package main
 
-import "os"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
 	dir, err := os.Open(".")
@@ -15,5 +18,6 @@ func main() {
 	}
 	for _, fi := range fileInfos {
 		filename := fi.Name()
+		fmt.Println(filename)
 	}
 }
