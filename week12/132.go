@@ -8,4 +8,6 @@ func main() {
 		return
 	}
 	defer dir.Close()
+
+	fileInfos
 }
