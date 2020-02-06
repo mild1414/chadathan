@@ -7,6 +7,8 @@ func TestRomanNumberals(t *testing.T) {
 		Description string
 		Arabic int
 		Want string
+	}{
+		{""}
 	}
 
 }
