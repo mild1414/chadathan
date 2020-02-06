@@ -1,3 +1,3 @@
 package integers
 
-func
+func TestAdder()
