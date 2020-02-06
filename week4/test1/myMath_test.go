@@ -1,3 +1,5 @@
 package myMath
 
-func
+import "testing"
+
+func TestAverage(t *testing.T)
