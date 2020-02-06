@@ -13,7 +13,7 @@ func TestRomanNumberals(t *testing.T) {
 	}
 
 	for _, test := range cases {
-		t.Run(test.Description)
+		t.Run(test.Description, func(t *testing.T) {})
 	}
 
 }
