@@ -2,4 +2,6 @@ package main
 
 import "testing"
 
-func TestHello(t *testing.T) {}
+func TestHello(t *testing.T) {
+	got := Hello()
+}
