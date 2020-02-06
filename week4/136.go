@@ -1,3 +1,5 @@
 package integers
 
-func TestAdder()
+import "testing"
+
+func TestAdder(t *testing.T)
