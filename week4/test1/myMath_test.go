@@ -2,4 +2,4 @@ package myMath
 
 import "testing"
 
-func TestAverage(t *testing.T)
+func TestAverage(t *testing.T) {}
