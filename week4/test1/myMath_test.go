@@ -4,5 +4,6 @@ import "testing"
 
 func TestAverage(t *testing.T) {
 	v := Average(3, 5)
-	if v !=
+	if v != 4 {
+	}
 }
