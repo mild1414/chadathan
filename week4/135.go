@@ -1,3 +1,5 @@
 package main
 
-func TestHello()
+import "testing"
+
+func TestHello(t *testing.T)
