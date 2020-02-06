@@ -3,5 +3,5 @@ package integers
 import "testing"
 
 func TestAdder(t *testing.T) {
-	sum
+	sum := Add(2, 2)
 }
