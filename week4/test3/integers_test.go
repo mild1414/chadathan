@@ -1,3 +1,3 @@
 package integers
 
-func TestAdder()
+func TestAdder(.t *testing.T){}
