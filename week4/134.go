@@ -1,3 +1,3 @@
 package main
 
-func Hello()
+func Hello() string {}
