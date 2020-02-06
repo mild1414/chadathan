@@ -8,7 +8,7 @@ func TestRomanNumberals(t *testing.T) {
 		Arabic int
 		Want string
 	}{
-		{""}
+		{"1 gets converted to I"}
 	}
 
 }
