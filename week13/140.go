@@ -10,4 +10,5 @@ func main() {
 		age:       31,
 		salary:    5000,
 	}
+	fmt.
 }
