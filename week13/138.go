@@ -16,4 +16,5 @@ func NewPerson(name string) *person {
 
 func main() {
 	fmt.Println(person{"Bob", 20})
+	fmt.Println()
 }
