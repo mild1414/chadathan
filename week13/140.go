@@ -6,7 +6,7 @@ func main() {
 		age, salary         int
 	}{
 		firstName: "Andreah",
-		lastName: "Nikola",
-		age
+		lastName:  "Nikola",
+		age:       31,
 	}
 }
