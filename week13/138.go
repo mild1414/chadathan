@@ -5,4 +5,7 @@ type person struct {
 	age  int
 }
 
-func NewPerson(name string) *person {}
+func NewPerson(name string) *person {
+
+	p := person{name: name}
+}
