@@ -12,5 +12,5 @@ func main() {
 		age:       31,
 		salary:    5000,
 	}
-	fmt.Println("Employee 3")
+	fmt.Println("Employee 3", emp3)
 }
