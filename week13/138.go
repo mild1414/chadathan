@@ -11,3 +11,5 @@ func NewPerson(name string) *person {
 	p.age = 42
 	return &p
 }
+
+func main() {}
