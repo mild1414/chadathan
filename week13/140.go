@@ -5,6 +5,6 @@ func main() {
 		firstName, lastName string
 		age, salary         int
 	}{
-		firstName, lastName
+		firstName, lastName string
 	}
 }
