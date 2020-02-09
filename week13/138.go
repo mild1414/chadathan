@@ -22,4 +22,5 @@ func main() {
 	fmt.Println(NewPerson("Jon"))
 
 	s := person{name: "sean", age: 50}
+	fmt.Println(s.name)
 }
