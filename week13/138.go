@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type person struct {
 	name string
 	age  int
@@ -12,4 +14,6 @@ func NewPerson(name string) *person {
 	return &p
 }
 
-func main() {}
+func main() {
+	fmt.Println()
+}
