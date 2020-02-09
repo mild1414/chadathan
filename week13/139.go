@@ -5,4 +5,6 @@ type Employee struct {
 	age, salary         int
 }
 
-func main() {}
+func main() {
+	emp1 := Employee{}
+}
