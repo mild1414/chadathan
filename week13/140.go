@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	emp3 := struct {
 		firstName, lastName string
@@ -10,5 +12,5 @@ func main() {
 		age:       31,
 		salary:    5000,
 	}
-	fmt.
+	fmt.Println()
 }
