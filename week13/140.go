@@ -8,5 +8,6 @@ func main() {
 		firstName: "Andreah",
 		lastName:  "Nikola",
 		age:       31,
+		salary:
 	}
 }
