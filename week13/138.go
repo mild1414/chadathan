@@ -28,4 +28,5 @@ func main() {
 	fmt.Println(sp.age)
 
 	sp.age = 51
+	fmt.Println(sp.age)
 }
