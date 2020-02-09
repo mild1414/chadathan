@@ -10,5 +10,6 @@ func main() {
 		firstName: "Sam",
 		age:       25,
 		salary:    500,
+		lastName:  "Anderson",
 	}
 }
