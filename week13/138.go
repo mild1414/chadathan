@@ -8,4 +8,5 @@ type person struct {
 func NewPerson(name string) *person {
 
 	p := person{name: name}
+	p.age = 42
 }
