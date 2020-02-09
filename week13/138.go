@@ -1,3 +1,5 @@
 package main
 
-type person struct{}
+type person struct {
+	name string
+}
