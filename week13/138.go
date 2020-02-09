@@ -26,4 +26,6 @@ func main() {
 
 	sp := &s
 	fmt.Println(sp.age)
+
+	sp.age = 51
 }
