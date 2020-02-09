@@ -18,4 +18,5 @@ func main() {
 	emp2 := Employee{"Thomas", "Paul", 29, 800}
 
 	fmt.Println("Employee 1", emp1)
+	fmt.Println("Employee 2", emp2)
 }
