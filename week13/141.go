@@ -1,3 +1,5 @@
 package main
 
-type Employee struct{}
+type Employee struct {
+	firstName, lastName string
+}
