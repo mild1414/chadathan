@@ -8,4 +8,4 @@ for i := 0; i<4; i== {
 		count++
 	}
 }
-fmt.Println("Array 4 x 2 :")
+fmt.Println("Array 4 x 2 :", multi)
