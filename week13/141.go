@@ -7,5 +7,5 @@ type Employee struct {
 
 funt main(){
 	var emp4 Employee
-	
+	fmt.Println("Employee 4", emp4)
 }
