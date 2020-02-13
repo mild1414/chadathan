@@ -1,5 +1,7 @@
 package main
 
+import ()
+
 type Employee struct {
 	firstName, lastName string
 	age, salary         int
