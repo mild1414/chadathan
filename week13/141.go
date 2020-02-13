@@ -1,4 +1,4 @@
 package main
 
 count := 1
-var
+var multi[4][2]int
