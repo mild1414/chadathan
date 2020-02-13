@@ -6,5 +6,7 @@ type Employee struct {
 }
 
 func main() {
-	emp5 := Employee{}
+	emp5 := Employee{
+		firstName: "John",
+	}
 }
