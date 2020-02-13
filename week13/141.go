@@ -5,4 +5,7 @@ type Employee struct {
 	age, salary         int
 }
 
-funt main(){}
+funt main(){
+	var emp4 Employee
+	
+}
