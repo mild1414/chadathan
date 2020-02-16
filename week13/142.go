@@ -20,4 +20,6 @@ func main() {
 	_, can_valeu := m["two"]
 	fmt.Println("can_valeu")
 
+	mapint := make(map[int]int)
+
 }
