@@ -21,5 +21,6 @@ func main() {
 	fmt.Println("can_valeu")
 
 	mapint := make(map[int]int)
-
+	mapint[1] = 12
+	mapint[2] = 05
 }
