@@ -11,4 +11,6 @@ func main() {
 
 	value := m["one"]
 	fmt.Println("value:", value)
+
+	value := len(m)
 }
