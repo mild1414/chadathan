@@ -10,12 +10,15 @@ func main() {
 	n, err := fmt.Scan(&water, &fire)
 	water = water * 1
 	fire = fire * 3
-	fmt.Println("water : %f", water)
-	fmt.Println("fire : %f", fire)
+	fmt.Printf("water : %f\n", water)
+	fmt.Printf("fire : %f\n", fire)
 
 	water = water + ((water * 7) / 100)
 	fire = fire + ((fire * 7) / 100)
 	totel = water + fire
-	fmt.Printf("รวมภาษี %f ", totel)
-
+	fmt.Printf("รวมภาษี %f\n ", totel)
+	fmt.Printf("water %f\n", water)
+	fmt.Printf("fire %f\n", fire)
+	fmt.Println(`number of argument `, n)
+	fmt.Println(`error `, err)
 }
