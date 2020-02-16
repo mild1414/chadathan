@@ -12,5 +12,6 @@ Lable1:
 			goto Lable1
 		}
 		fmt.Printf("value is: %d\n", x)
+		x++
 	}
 }
