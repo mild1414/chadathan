@@ -18,5 +18,6 @@ func main() {
 	delete(m, "two")
 
 	_, can_valeu := m["two"]
+	fmt.Println("can_valeu")
 
 }
