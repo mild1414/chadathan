@@ -7,6 +7,7 @@ func main() {
 		fmt.Println(i)
 
 		if i == 3 {
+			break
 		}
 	}
 }
