@@ -10,5 +10,5 @@ func main() {
 	fmt.Println("map:", m)
 
 	value := m["one"]
-	fmt.Println("value")
+	fmt.Println("value:", value)
 }
