@@ -24,5 +24,6 @@ func main() {
 	mapint[1] = 12
 	mapint[2] = 05
 	for i := range mapint {
+		fmt.Println("i:", i)
 	}
 }
