@@ -17,4 +17,6 @@ func main() {
 
 	delete(m, "two")
 
+	_, can_valeu := m["two"]
+
 }
