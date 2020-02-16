@@ -15,4 +15,6 @@ func main() {
 	len := len(m)
 	fmt.Println("len:", value)
 
+	delete(m, "two")
+
 }
