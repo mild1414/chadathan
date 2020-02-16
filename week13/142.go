@@ -18,7 +18,7 @@ func main() {
 	delete(m, "two")
 
 	_, can_valeu := m["two"]
-	fmt.Println("can_valeu")
+	fmt.Println("can_valeu", can_valeu)
 
 	mapint := make(map[int]int)
 	mapint[1] = 12
