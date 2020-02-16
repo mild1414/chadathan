@@ -3,10 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("input : ", water)
-	fmt.Print("input : ", fire)
+	fmt.Print("input : ")
 	var water float32
 	var fire float32
-	fmt.Scanf(&water, &fire)
-
+	n, err := fmt.Scan(&water, &fire)
+	water = water * 1
+	fire = fire * 3
+	fmt.Println("water : %f", water)
+	fmt.Println("fire : %f", fire)
 }
