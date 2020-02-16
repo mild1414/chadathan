@@ -1,3 +1,5 @@
 package main
 
-func main() {}
+func main() {
+	m := make(map[string]int)
+}
