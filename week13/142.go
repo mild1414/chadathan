@@ -23,4 +23,6 @@ func main() {
 	mapint := make(map[int]int)
 	mapint[1] = 12
 	mapint[2] = 05
+	for i := range mapint {
+	}
 }
