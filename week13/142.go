@@ -13,5 +13,6 @@ func main() {
 	fmt.Println("value:", value)
 
 	len := len(m)
+	fmt.Println("len:", value)
 
 }
