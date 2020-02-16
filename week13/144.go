@@ -5,5 +5,7 @@ func main() {
 
 Lable1:
 	for x < 8 {
+		if x == 5 {
+		}
 	}
 }
