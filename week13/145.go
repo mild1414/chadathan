@@ -16,6 +16,6 @@ func main() {
 	water = water + ((water * 7) / 100)
 	fire = fire + ((fire * 7) / 100)
 	totel = water + fire
-	fmt.Printf("ภาษี %f", water)
+	fmt.Printf("รวมภาษี %f ", totel)
 
 }
