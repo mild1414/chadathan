@@ -8,4 +8,6 @@ func main() {
 	m["two"] = 05
 
 	fmt.Println("map:", m)
+
+	value := m["one"]
 }
