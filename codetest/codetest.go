@@ -1,5 +1,3 @@
 package main
 
-func main() {
-
-}
+func getDrives() (r []string) {}
