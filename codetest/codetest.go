@@ -1,3 +1,7 @@
 package main
 
-func getDrives() (r []string) {}
+import "fmt"
+
+func getDrives() (r []string) {
+	fmt.Println("input : ")
+}
